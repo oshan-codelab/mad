@@ -57,7 +57,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/whatsapp_image_2020_08_13_at_14_06_00" />
+        app:srcCompat="@drawable/osh_whatsapp_image_2020_08_13_at_14_06_00" />
 
     <TextView
         android:id="@+id/textView4"
