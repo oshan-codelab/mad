@@ -54,18 +54,19 @@
         app:srcCompat="@drawable/osh_whatsapp_image_2020_08_13_at_14_06_00" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName20"
+        android:id="@+id/txname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
         android:ems="10"
+        android:hint="@string/hintname"
         android:inputType="textPersonName"
-        android:text="Name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.851"
+        app:layout_constraintHorizontal_bias="0.75"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.443" />
+        app:layout_constraintVertical_bias="0.342" />
 
     <TextView
         android:id="@+id/textView21"
@@ -83,18 +84,19 @@
         app:layout_constraintVertical_bias="0.049" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName21"
+        android:id="@+id/txtnicc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
         android:ems="10"
+        android:hint="@string/HNIC"
         android:inputType="textPersonName"
-        android:text="@string/NIC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.856"
+        app:layout_constraintHorizontal_bias="0.75"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.67" />
+        app:layout_constraintVertical_bias="0.439" />
 
     <TextView
         android:id="@+id/textView24"
@@ -105,10 +107,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.159"
+        app:layout_constraintHorizontal_bias="0.11"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.345" />
+        app:layout_constraintVertical_bias="0.333" />
 
     <TextView
         android:id="@+id/textView25"
@@ -119,17 +121,19 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintHorizontal_bias="0.104"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.574" />
+        app:layout_constraintVertical_bias="0.428" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/udtbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="Updatepart"
+        android:backgroundTint="@android:color/holo_orange_light"
         android:text="@string/update"
+        android:textColor="@android:color/holo_red_light"
+        android:textColorHint="@android:color/holo_blue_bright"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.532"
@@ -139,8 +143,10 @@
 
     <Spinner
         android:id="@+id/spinner5"
-        android:layout_width="150dp"
+        android:layout_width="143dp"
         android:layout_height="508dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
         android:background="@android:drawable/screen_background_dark_transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -154,6 +160,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Update_page"
+        android:textColor="@android:color/holo_red_dark"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -162,4 +169,105 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.241" />
+
+    <Button
+        android:id="@+id/butshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="show"
+        android:textColor="@android:color/holo_red_light"
+        app:layout_constraintBaseline_toBaselineOf="@+id/udtbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.521" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Age"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Contact_no"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.716" />
+
+    <EditText
+        android:id="@+id/Uaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:ems="10"
+        android:hint="@string/Dname"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.534" />
+
+    <EditText
+        android:id="@+id/uage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:ems="10"
+        android:hint="@string/Hage"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.631" />
+
+    <EditText
+        android:id="@+id/ucNO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:ems="10"
+        android:hint="@string/CNo"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.737" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

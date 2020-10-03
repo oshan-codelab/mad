@@ -7,4 +7,5 @@
     <string name="PNO">+94*********</string>
     <string name="Hnic">enter nic</string>
     <string name="Dname">Enter name</string>
+    <string name="hintname">Name</string>
 </resources>

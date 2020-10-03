@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/osh_ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".osh_Updatepart1"></activity>
+        <activity android:name=".osh_Updatepart1"/>
         <activity android:name=".osh_delete" />
         <activity android:name=".osh_display" />
         <activity android:name=".osh_MainActivity">

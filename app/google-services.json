@@ -1,42 +1,92 @@
 {
   "project_info": {
-    "project_number": "259933200719",
-    "firebase_url": "https://madfirebaseproject-23dee.firebaseio.com",
-    "project_id": "madfirebaseproject-23dee",
-    "storage_bucket": "madfirebaseproject-23dee.appspot.com"
+    "project_number": "509353451545",
+    "firebase_url": "https://smart-fashion-c0d9f.firebaseio.com",
+    "project_id": "smart-fashion-c0d9f",
+    "storage_bucket": "smart-fashion-c0d9f.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:259933200719:android:abfbf334d481448e1ca53a",
+        "mobilesdk_app_id": "1:509353451545:android:e64972d6022d248bc34a88",
         "android_client_info": {
           "package_name": "com.example.mad"
         }
       },
       "oauth_client": [
         {
-          "client_id": "259933200719-cjmgtdmbria4633dahdrofrn3tukfati.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.mad",
-            "certificate_hash": "b8f1cfd05bf5e156dfd84529c32e8d5ed940f010"
-          }
-        },
-        {
-          "client_id": "259933200719-2mf0mge1aa9cdrh2grp8u3c558jpcfrp.apps.googleusercontent.com",
+          "client_id": "509353451545-0hal8b6ft2sisdc5sqv0f3e47617e0e9.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCTFLqiZs78pPukflfionUGkTD_yCc4LR4"
+          "current_key": "AIzaSyD0CBnG7ng4JsgXZgj_6g4lhLIFmZMLJU4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "259933200719-2mf0mge1aa9cdrh2grp8u3c558jpcfrp.apps.googleusercontent.com",
+              "client_id": "509353451545-0hal8b6ft2sisdc5sqv0f3e47617e0e9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509353451545:android:60e6a863926dc621c34a88",
+        "android_client_info": {
+          "package_name": "com.example.madsmartfashion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509353451545-0hal8b6ft2sisdc5sqv0f3e47617e0e9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0CBnG7ng4JsgXZgj_6g4lhLIFmZMLJU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509353451545-0hal8b6ft2sisdc5sqv0f3e47617e0e9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509353451545:android:b13a9cb4efdd7167c34a88",
+        "android_client_info": {
+          "package_name": "com.example.smartfashion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509353451545-0hal8b6ft2sisdc5sqv0f3e47617e0e9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0CBnG7ng4JsgXZgj_6g4lhLIFmZMLJU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509353451545-0hal8b6ft2sisdc5sqv0f3e47617e0e9.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -46,3 +96,4 @@
   ],
   "configuration_version": "1"
 }
+    

@@ -53,23 +53,23 @@ public class osh_MainActivity extends AppCompatActivity {
                 dbRef = FirebaseDatabase.getInstance().getReference().child("Oshan");
                 try {
                     if (TextUtils.isEmpty(txtName.getText().toString()))
-                        Toast.makeText(getApplicationContext(), "Please enter an ID", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Please enter  name", Toast.LENGTH_SHORT).show();
                     else if (TextUtils.isEmpty(txtNic .getText().toString()))
-                        Toast.makeText(getApplicationContext(), "Please enter an name", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Please enter NIC", Toast.LENGTH_SHORT).show();
                     else if (TextUtils.isEmpty(txtAddress.getText().toString()))
                         Toast.makeText(getApplicationContext(), "Please enter an address", Toast.LENGTH_SHORT).show();
                     else if (TextUtils.isEmpty(txtAge.getText().toString()))
-                        Toast.makeText(getApplicationContext(), "Please enter an address", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Please enter an age", Toast.LENGTH_SHORT).show();
                     else {
                         DT.setName(txtName.getText().toString().trim());
                         DT.setNIC(txtNic.getText().toString().trim());
                         DT.setEddress(txtAddress.getText().toString().trim());
                         DT.setAge(txtAge.getText().toString().trim());
-                        DT.setCNo(Integer.parseInt(txtAge.getText().toString().trim()));
+                        DT.setCNo(Integer.parseInt(txtCNo.getText().toString().trim()));
 
-                        //dbRef.push().setValue(std);
-                        dbRef.child("dt1").setValue(DT);
-
+                       // dbRef.push().setValue(DT);
+                       dbRef.child("dt1").setValue(DT);
+                           // dbRef.setValue(DT);
                         Toast.makeText(getApplicationContext(), "Data saved success", Toast.LENGTH_SHORT).show();
                         clearControls();
                     }

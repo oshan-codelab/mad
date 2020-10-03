@@ -43,12 +43,12 @@ public class osh_delete extends AppCompatActivity {
         butDelete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                DatabaseReference updRef = FirebaseDatabase.getInstance().getReference().child("OSHAN");
+                DatabaseReference updRef = FirebaseDatabase.getInstance().getReference().child("Oshan");
                 updRef.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                        if (dataSnapshot.hasChild("DT1")) {
-                            dbRef = FirebaseDatabase.getInstance().getReference().child("Student").child("DT1");
+                        if (dataSnapshot.hasChild("dt1")) {
+                            dbRef = FirebaseDatabase.getInstance().getReference().child("Oshan").child("dt1");
                             dbRef.removeValue();
                             clearControls();
                             Toast.makeText(getApplicationContext(), "Data Deleted Successfully", Toast.LENGTH_SHORT).show();
@@ -62,6 +62,8 @@ public class osh_delete extends AppCompatActivity {
                     }
 
                 });
+                
+
             }
         });
 
