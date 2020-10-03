@@ -68,7 +68,7 @@ public class osh_MainActivity extends AppCompatActivity {
                         DT.setCNo(Integer.parseInt(txtCNo.getText().toString().trim()));
 
                        // dbRef.push().setValue(DT);
-                       dbRef.child("dt1").setValue(DT);
+                       dbRef.child("dt2").setValue(DT);
                            // dbRef.setValue(DT);
                         Toast.makeText(getApplicationContext(), "Data saved success", Toast.LENGTH_SHORT).show();
                         clearControls();

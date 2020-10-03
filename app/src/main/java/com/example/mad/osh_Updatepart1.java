@@ -3,9 +3,7 @@ package com.example.mad;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -47,7 +45,7 @@ public class osh_Updatepart1 extends AppCompatActivity {
         txtCNo =findViewById(R.id.ucNO);
 
         udbtn=findViewById(R.id.udtbtn);
-        butShow=findViewById(R.id.butshow);
+        butShow=findViewById(R.id.butshoww);
 
 
         udbtn.setOnClickListener(new View.OnClickListener() {
@@ -103,7 +101,7 @@ public class osh_Updatepart1 extends AppCompatActivity {
         butShow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                dbRef = FirebaseDatabase.getInstance().getReference().child("Oshan").child("dt1");
+                dbRef = FirebaseDatabase.getInstance().getReference().child("Oshan").child("dt2");
                 dbRef.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
